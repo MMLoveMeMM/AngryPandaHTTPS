@@ -1,0 +1,23 @@
+LOCAL_PATH:= $(call my-dir)
+MY_PATH := $(LOCAL_PATH)
+include $(call all-subdir-makefiles)
+LOCAL_PATH := $(TOP_LOCAL_PATH)
+include $(CLEAR_VARS)
+LOCAL_PATH := $(MY_PATH)
+
+LOCAL_SHARED_LIBRARY := libnativehelper
+
+LOCAL_PROGUARD_ENABLED:= disabled
+LOCAL_DISABLE_FATAL_LINKER_WARNINGS=true
+LOCAL_LDLIBS += -llog -lz
+
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/include
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/src
+LOCAL_C_INCLUDES += $(LOCAL_PATH)
+
+LOCAL_STATIC_LIBRARIES := ssl
+LOCAL_STATIC_LIBRARIES += crypto
+LOCAL_MODULE := usingopenssl
+LOCAL_SRC_FILES := OpensslCore.cpp
+LOCAL_SRC_FILES += src/ssl_support.cpp
+include $(BUILD_SHARED_LIBRARY)

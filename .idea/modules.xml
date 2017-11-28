@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AngryPandaOpenssl.iml" filepath="$PROJECT_DIR$/AngryPandaOpenssl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/curlwrapper/curlwrapper.iml" filepath="$PROJECT_DIR$/curlwrapper/curlwrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http2wrapper/http2wrapper.iml" filepath="$PROJECT_DIR$/http2wrapper/http2wrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpwrapper/httpwrapper.iml" filepath="$PROJECT_DIR$/httpwrapper/httpwrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opensslwrapper/opensslwrapper.iml" filepath="$PROJECT_DIR$/opensslwrapper/opensslwrapper.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=E:\liuzhibao\library\AngryPandaOpenssl\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar
+FILE_HASH=62fe1ec2f318e66bb8bc4d511365e3d8ad1bca4b
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true
