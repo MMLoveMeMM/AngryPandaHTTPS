@@ -3,4 +3,5 @@ curlwrapper : 这个module测试https部分的;
 httpwrapper : 测试http通信协议的;
 http2wrapper : 测试对http2通信协议的支持;
 
-所有的编译资源被压缩在http_support.tar.gz里面.
+所有的编译资源被压缩在http_support.tar.gz里面.由于比较大,就放在百度盘里面了.
+链接：http://pan.baidu.com/s/1nv3NTvr 密码：j58k
